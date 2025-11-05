@@ -110,5 +110,6 @@ public class CazadorTest {
         Entrenable entre1 = new ProteccionLegal(p6);
         assertEquals(40,entre1.getNivelDeInocencia());
         Entrenable entr2 = new ProteccionLegal(entre1);
+        Entrenable entr3 = new ProteccionLegal(entre1);
     }
 }
