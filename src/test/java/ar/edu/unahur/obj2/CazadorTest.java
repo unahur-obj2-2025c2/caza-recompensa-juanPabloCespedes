@@ -109,5 +109,6 @@ public class CazadorTest {
         Profugo p6 = new Profugo(30, 70 , true);
         Entrenable entre1 = new ProteccionLegal(p6);
         assertEquals(40,entre1.getNivelDeInocencia());
+        Entrenable entr2 = new ProteccionLegal(entre1);
     }
 }
